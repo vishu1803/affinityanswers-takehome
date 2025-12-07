@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Selenium / ChromeDriver auto-download cache
+.chromedriver/
+*.log
+selenium-wire/
+selenium-logs/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
