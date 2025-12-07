@@ -1,27 +1,26 @@
 # Q2 – Rfam SQL Exercises
 
-This folder contains SQL queries for interacting with the **public Rfam MySQL database**, as required in Task 2.
+This folder contains my SQL answers for the Rfam public MySQL database questions in Task 2.
 
-Rfam DB docs:  
-https://docs.rfam.org/en/latest/database.html
-
-Public DB connection:
-
-- **Host:** `mysql-rfam-public.ebi.ac.uk`
-- **Port:** `4497`
-- **User:** `rfamro`
-- **Password:** *(empty)*
-- **Database:** `Rfam`
+Rfam provides a public **read-only MySQL database** with the latest data.  
+Docs: https://docs.rfam.org/en/latest/database.html
 
 ---
 
-## How to Connect (MySQL CLI)
+## 🔌 Connection Details
 
-From a terminal:
+Public MySQL DB:
+
+- **Host:** mysql-rfam-public.ebi.ac.uk  
+- **Port:** 4497  
+- **User:** rfamro  
+- **Password:** *(none)*  
+- **Database:** Rfam  
+
+Example connection from terminal:
 
 ```bash
-mysql -h mysql-rfam-public.ebi.ac.uk \
-      -P 4497 \
-      -u rfamro \
-      --protocol=TCP \
-      Rfam
+mysql --user rfamro \
+      --host mysql-rfam-public.ebi.ac.uk \
+      --port 4497 \
+      --database Rfam
