@@ -96,6 +96,7 @@ Joined rfamseq + taxonomy to find the Oryza species with the largest DNA sequenc
 Returned page 9 (15 items/page) for families with max_region_length > 1,000,000.
 
 ➡️ All SQL queries are in: q2_rfam_sql/rfam_queries.sql
+```
 
 ✅ Task 3 – AMFI NAV Extractor (Shell Script)
 Folder: q3_amfi_shell/
@@ -121,7 +122,7 @@ Saves them to schemes.tsv in tab-separated format.
 
 Run:
 
-bash
+```bash
 Copy code
 chmod +x nav_extract.sh
 ./nav_extract.sh
