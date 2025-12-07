@@ -8,7 +8,7 @@ This repository contains solutions for all three required tasks:
 Each task is placed in its own dedicated folder with source code, documentation, and required outputs.
 
 ---
-
+```
 # 📂 Repository Structure
 
 assignment12/
@@ -28,10 +28,7 @@ assignment12/
 ├── nav_extract.sh
 ├── README.md
 └── .gitignore
-
-yaml
-Copy code
-
+```
 ---
 
 # ✅ Task 1 – OLX Car Cover Scraper (Python + Selenium)
@@ -42,8 +39,6 @@ The goal was to extract **live search results** from:
 
 https://www.olx.in/items/q-car-cover?isSearchCall=true
 
-yaml
-Copy code
 
 Because OLX loads listings dynamically using JavaScript, a standard `requests` scraper does not work.  
 This solution uses:
