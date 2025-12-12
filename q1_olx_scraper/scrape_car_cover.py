@@ -29,7 +29,7 @@ def fetch_listings():
     try:
         driver.get(SEARCH_URL)
 
-        # Wait until at least one listing card is present
+        
         wait = WebDriverWait(driver, 20)
         wait.until(
             EC.presence_of_element_located(
