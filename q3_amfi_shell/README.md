@@ -14,7 +14,7 @@ From this directory:
 ```bash
 chmod +x nav_extract.sh    # first time only
 ./nav_extract.sh
-
+```
 
 Method
 
